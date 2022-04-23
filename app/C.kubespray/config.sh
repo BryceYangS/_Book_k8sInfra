@@ -14,7 +14,7 @@ sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 
 # local small dns & vagrant cannot parse and delivery shell code.
 for (( m=1; m<=$1; m++  )); do echo "192.168.1.1$m m1$m-k8s" >> /etc/hosts; done
-for (( n=1; n<=$2; n++  )); do echo "192.168.1.10$n w10$n-k8s" >> /etc/hosts; done
+for (( n=1; n<=$2; n++  )); do echo "192.168.56.10$n w10$n-k8s" >> /etc/hosts; done
 
 # config DNS  
 cat <<EOF > /etc/resolv.conf

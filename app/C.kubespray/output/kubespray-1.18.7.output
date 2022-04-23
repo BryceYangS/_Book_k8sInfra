@@ -2526,103 +2526,103 @@ ok: [w102-k8s] => (item=127.0.0.1   localhost localhost.localdomain localhost4 l
 skipping: [w101-k8s] => (item=192.168.1.11 m11-k8s) 
 skipping: [w101-k8s] => (item=192.168.1.12 m12-k8s) 
 skipping: [w101-k8s] => (item=192.168.1.13 m13-k8s) 
-skipping: [w101-k8s] => (item=192.168.1.101 w101-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.101 w101-k8s) 
 ok: [w102-k8s] => (item=::1         localhost localhost.localdomain localhost6 localhost6.localdomain6)
 ok: [w103-k8s] => (item=127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4)
-skipping: [w101-k8s] => (item=192.168.1.102 w102-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.102 w102-k8s) 
 skipping: [w102-k8s] => (item=192.168.1.11 m11-k8s) 
-skipping: [w101-k8s] => (item=192.168.1.103 w103-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.103 w103-k8s) 
 skipping: [w102-k8s] => (item=192.168.1.12 m12-k8s) 
-skipping: [w101-k8s] => (item=192.168.1.104 w104-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.104 w104-k8s) 
 ok: [w104-k8s] => (item=127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4)
 ok: [w105-k8s] => (item=127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4)
 ok: [w103-k8s] => (item=::1         localhost localhost.localdomain localhost6 localhost6.localdomain6)
 skipping: [w102-k8s] => (item=192.168.1.13 m13-k8s) 
-skipping: [w101-k8s] => (item=192.168.1.105 w105-k8s) 
-skipping: [w101-k8s] => (item=192.168.1.106 w106-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.105 w105-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.106 w106-k8s) 
 skipping: [w103-k8s] => (item=192.168.1.11 m11-k8s) 
-skipping: [w102-k8s] => (item=192.168.1.101 w101-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.101 w101-k8s) 
 skipping: [w101-k8s] => (item=# Ansible inventory hosts BEGIN) 
 skipping: [w103-k8s] => (item=192.168.1.12 m12-k8s) 
 ok: [w105-k8s] => (item=::1         localhost localhost.localdomain localhost6 localhost6.localdomain6)
-skipping: [w102-k8s] => (item=192.168.1.102 w102-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.102 w102-k8s) 
 ok: [w104-k8s] => (item=::1         localhost localhost.localdomain localhost6 localhost6.localdomain6)
-skipping: [w101-k8s] => (item=192.168.1.101 w101-k8s.cluster.local w101-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.101 w101-k8s.cluster.local w101-k8s) 
 skipping: [w105-k8s] => (item=192.168.1.11 m11-k8s) 
 skipping: [w103-k8s] => (item=192.168.1.13 m13-k8s) 
-skipping: [w102-k8s] => (item=192.168.1.103 w103-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.103 w103-k8s) 
 skipping: [w104-k8s] => (item=192.168.1.11 m11-k8s) 
-skipping: [w101-k8s] => (item=192.168.1.102 w102-k8s.cluster.local w102-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.102 w102-k8s.cluster.local w102-k8s) 
 skipping: [w105-k8s] => (item=192.168.1.12 m12-k8s) 
-skipping: [w102-k8s] => (item=192.168.1.104 w104-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.101 w101-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.104 w104-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.101 w101-k8s) 
 skipping: [w104-k8s] => (item=192.168.1.12 m12-k8s) 
-skipping: [w101-k8s] => (item=192.168.1.103 w103-k8s.cluster.local w103-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.103 w103-k8s.cluster.local w103-k8s) 
 skipping: [w105-k8s] => (item=192.168.1.13 m13-k8s) 
-skipping: [w101-k8s] => (item=192.168.1.104 w104-k8s.cluster.local w104-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.102 w102-k8s) 
-skipping: [w102-k8s] => (item=192.168.1.105 w105-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.104 w104-k8s.cluster.local w104-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.102 w102-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.105 w105-k8s) 
 skipping: [w104-k8s] => (item=192.168.1.13 m13-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.101 w101-k8s) 
-skipping: [w101-k8s] => (item=192.168.1.105 w105-k8s.cluster.local w105-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.103 w103-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.102 w102-k8s) 
-skipping: [w104-k8s] => (item=192.168.1.101 w101-k8s) 
-skipping: [w102-k8s] => (item=192.168.1.106 w106-k8s) 
-skipping: [w101-k8s] => (item=192.168.1.106 w106-k8s.cluster.local w106-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.103 w103-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.104 w104-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.101 w101-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.105 w105-k8s.cluster.local w105-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.103 w103-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.102 w102-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.101 w101-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.106 w106-k8s) 
+skipping: [w101-k8s] => (item=192.168.56.106 w106-k8s.cluster.local w106-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.103 w103-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.104 w104-k8s) 
 skipping: [w102-k8s] => (item=# Ansible inventory hosts BEGIN) 
-skipping: [w104-k8s] => (item=192.168.1.102 w102-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.102 w102-k8s) 
 skipping: [w101-k8s] => (item=192.168.1.11 m11-k8s.cluster.local m11-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.104 w104-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.105 w105-k8s) 
-skipping: [w102-k8s] => (item=192.168.1.101 w101-k8s.cluster.local w101-k8s) 
-skipping: [w104-k8s] => (item=192.168.1.103 w103-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.104 w104-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.105 w105-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.101 w101-k8s.cluster.local w101-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.103 w103-k8s) 
 skipping: [w101-k8s] => (item=192.168.1.12 m12-k8s.cluster.local m12-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.105 w105-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.106 w106-k8s) 
-skipping: [w104-k8s] => (item=192.168.1.104 w104-k8s) 
-skipping: [w102-k8s] => (item=192.168.1.102 w102-k8s.cluster.local w102-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.105 w105-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.106 w106-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.104 w104-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.102 w102-k8s.cluster.local w102-k8s) 
 skipping: [w101-k8s] => (item=192.168.1.13 m13-k8s.cluster.local m13-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.106 w106-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.106 w106-k8s) 
 skipping: [w103-k8s] => (item=# Ansible inventory hosts BEGIN) 
-skipping: [w102-k8s] => (item=192.168.1.103 w103-k8s.cluster.local w103-k8s) 
-skipping: [w104-k8s] => (item=192.168.1.105 w105-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.103 w103-k8s.cluster.local w103-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.105 w105-k8s) 
 skipping: [w101-k8s] => (item=# Ansible inventory hosts END) 
 skipping: [w105-k8s] => (item=# Ansible inventory hosts BEGIN) 
-skipping: [w103-k8s] => (item=192.168.1.101 w101-k8s.cluster.local w101-k8s) 
-skipping: [w102-k8s] => (item=192.168.1.104 w104-k8s.cluster.local w104-k8s) 
-skipping: [w104-k8s] => (item=192.168.1.106 w106-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.101 w101-k8s.cluster.local w101-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.102 w102-k8s.cluster.local w102-k8s) 
-skipping: [w102-k8s] => (item=192.168.1.105 w105-k8s.cluster.local w105-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.101 w101-k8s.cluster.local w101-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.104 w104-k8s.cluster.local w104-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.106 w106-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.101 w101-k8s.cluster.local w101-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.102 w102-k8s.cluster.local w102-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.105 w105-k8s.cluster.local w105-k8s) 
 skipping: [w104-k8s] => (item=# Ansible inventory hosts BEGIN) 
 skipping: [w106-k8s] => (item=127.0.0.1	w106-k8s	w106-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.102 w102-k8s.cluster.local w102-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.103 w103-k8s.cluster.local w103-k8s) 
-skipping: [w102-k8s] => (item=192.168.1.106 w106-k8s.cluster.local w106-k8s) 
-skipping: [w104-k8s] => (item=192.168.1.101 w101-k8s.cluster.local w101-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.103 w103-k8s.cluster.local w103-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.104 w104-k8s.cluster.local w104-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.102 w102-k8s.cluster.local w102-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.103 w103-k8s.cluster.local w103-k8s) 
+skipping: [w102-k8s] => (item=192.168.56.106 w106-k8s.cluster.local w106-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.101 w101-k8s.cluster.local w101-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.103 w103-k8s.cluster.local w103-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.104 w104-k8s.cluster.local w104-k8s) 
 skipping: [w102-k8s] => (item=192.168.1.11 m11-k8s.cluster.local m11-k8s) 
-skipping: [w104-k8s] => (item=192.168.1.102 w102-k8s.cluster.local w102-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.104 w104-k8s.cluster.local w104-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.105 w105-k8s.cluster.local w105-k8s) 
-skipping: [w104-k8s] => (item=192.168.1.103 w103-k8s.cluster.local w103-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.105 w105-k8s.cluster.local w105-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.102 w102-k8s.cluster.local w102-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.104 w104-k8s.cluster.local w104-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.105 w105-k8s.cluster.local w105-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.103 w103-k8s.cluster.local w103-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.105 w105-k8s.cluster.local w105-k8s) 
 skipping: [w102-k8s] => (item=192.168.1.12 m12-k8s.cluster.local m12-k8s) 
-skipping: [w105-k8s] => (item=192.168.1.106 w106-k8s.cluster.local w106-k8s) 
-skipping: [w103-k8s] => (item=192.168.1.106 w106-k8s.cluster.local w106-k8s) 
+skipping: [w105-k8s] => (item=192.168.56.106 w106-k8s.cluster.local w106-k8s) 
+skipping: [w103-k8s] => (item=192.168.56.106 w106-k8s.cluster.local w106-k8s) 
 skipping: [w102-k8s] => (item=192.168.1.13 m13-k8s.cluster.local m13-k8s) 
-skipping: [w104-k8s] => (item=192.168.1.104 w104-k8s.cluster.local w104-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.104 w104-k8s.cluster.local w104-k8s) 
 skipping: [w105-k8s] => (item=192.168.1.11 m11-k8s.cluster.local m11-k8s) 
 skipping: [w103-k8s] => (item=192.168.1.11 m11-k8s.cluster.local m11-k8s) 
 skipping: [w102-k8s] => (item=# Ansible inventory hosts END) 
-skipping: [w104-k8s] => (item=192.168.1.105 w105-k8s.cluster.local w105-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.105 w105-k8s.cluster.local w105-k8s) 
 skipping: [w105-k8s] => (item=192.168.1.12 m12-k8s.cluster.local m12-k8s) 
 skipping: [w103-k8s] => (item=192.168.1.12 m12-k8s.cluster.local m12-k8s) 
-skipping: [w104-k8s] => (item=192.168.1.106 w106-k8s.cluster.local w106-k8s) 
+skipping: [w104-k8s] => (item=192.168.56.106 w106-k8s.cluster.local w106-k8s) 
 skipping: [w105-k8s] => (item=192.168.1.13 m13-k8s.cluster.local m13-k8s) 
 skipping: [w103-k8s] => (item=192.168.1.13 m13-k8s.cluster.local m13-k8s) 
 skipping: [w104-k8s] => (item=192.168.1.11 m11-k8s.cluster.local m11-k8s) 
@@ -2639,82 +2639,82 @@ skipping: [m13-k8s] => (item=127.0.0.1	m13-k8s	m13-k8s)
 skipping: [w106-k8s] => (item=192.168.1.11 m11-k8s) 
 skipping: [w106-k8s] => (item=192.168.1.12 m12-k8s) 
 skipping: [w106-k8s] => (item=192.168.1.13 m13-k8s) 
-skipping: [w106-k8s] => (item=192.168.1.101 w101-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.101 w101-k8s) 
 ok: [m11-k8s] => (item=127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4)
-skipping: [w106-k8s] => (item=192.168.1.102 w102-k8s) 
-skipping: [w106-k8s] => (item=192.168.1.103 w103-k8s) 
-skipping: [w106-k8s] => (item=192.168.1.104 w104-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.102 w102-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.103 w103-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.104 w104-k8s) 
 ok: [m11-k8s] => (item=::1         localhost localhost.localdomain localhost6 localhost6.localdomain6)
-skipping: [w106-k8s] => (item=192.168.1.105 w105-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.105 w105-k8s) 
 skipping: [m11-k8s] => (item=192.168.1.11 m11-k8s) 
 ok: [m12-k8s] => (item=127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4)
-skipping: [w106-k8s] => (item=192.168.1.106 w106-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.106 w106-k8s) 
 skipping: [m11-k8s] => (item=192.168.1.12 m12-k8s) 
 ok: [m13-k8s] => (item=127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4)
 skipping: [w106-k8s] => (item=# Ansible inventory hosts BEGIN) 
 skipping: [m11-k8s] => (item=192.168.1.13 m13-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.101 w101-k8s) 
-skipping: [w106-k8s] => (item=192.168.1.101 w101-k8s.cluster.local w101-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.101 w101-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.101 w101-k8s.cluster.local w101-k8s) 
 ok: [m12-k8s] => (item=::1         localhost localhost.localdomain localhost6 localhost6.localdomain6)
-skipping: [m11-k8s] => (item=192.168.1.102 w102-k8s) 
-skipping: [w106-k8s] => (item=192.168.1.102 w102-k8s.cluster.local w102-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.102 w102-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.102 w102-k8s.cluster.local w102-k8s) 
 ok: [m13-k8s] => (item=::1         localhost localhost.localdomain localhost6 localhost6.localdomain6)
 skipping: [m12-k8s] => (item=192.168.1.11 m11-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.103 w103-k8s) 
-skipping: [w106-k8s] => (item=192.168.1.103 w103-k8s.cluster.local w103-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.103 w103-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.103 w103-k8s.cluster.local w103-k8s) 
 skipping: [m13-k8s] => (item=192.168.1.11 m11-k8s) 
 skipping: [m12-k8s] => (item=192.168.1.12 m12-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.104 w104-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.104 w104-k8s) 
 skipping: [m13-k8s] => (item=192.168.1.12 m12-k8s) 
-skipping: [w106-k8s] => (item=192.168.1.104 w104-k8s.cluster.local w104-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.104 w104-k8s.cluster.local w104-k8s) 
 skipping: [m12-k8s] => (item=192.168.1.13 m13-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.105 w105-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.105 w105-k8s) 
 skipping: [m13-k8s] => (item=192.168.1.13 m13-k8s) 
-skipping: [w106-k8s] => (item=192.168.1.105 w105-k8s.cluster.local w105-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.101 w101-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.106 w106-k8s) 
-skipping: [m13-k8s] => (item=192.168.1.101 w101-k8s) 
-skipping: [w106-k8s] => (item=192.168.1.106 w106-k8s.cluster.local w106-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.102 w102-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.105 w105-k8s.cluster.local w105-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.101 w101-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.106 w106-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.101 w101-k8s) 
+skipping: [w106-k8s] => (item=192.168.56.106 w106-k8s.cluster.local w106-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.102 w102-k8s) 
 skipping: [m11-k8s] => (item=# Ansible inventory hosts BEGIN) 
-skipping: [m13-k8s] => (item=192.168.1.102 w102-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.102 w102-k8s) 
 skipping: [w106-k8s] => (item=192.168.1.11 m11-k8s.cluster.local m11-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.101 w101-k8s.cluster.local w101-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.103 w103-k8s) 
-skipping: [m13-k8s] => (item=192.168.1.103 w103-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.101 w101-k8s.cluster.local w101-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.103 w103-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.103 w103-k8s) 
 skipping: [w106-k8s] => (item=192.168.1.12 m12-k8s.cluster.local m12-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.102 w102-k8s.cluster.local w102-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.104 w104-k8s) 
-skipping: [m13-k8s] => (item=192.168.1.104 w104-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.102 w102-k8s.cluster.local w102-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.104 w104-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.104 w104-k8s) 
 skipping: [w106-k8s] => (item=192.168.1.13 m13-k8s.cluster.local m13-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.103 w103-k8s.cluster.local w103-k8s) 
-skipping: [m13-k8s] => (item=192.168.1.105 w105-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.105 w105-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.104 w104-k8s.cluster.local w104-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.103 w103-k8s.cluster.local w103-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.105 w105-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.105 w105-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.104 w104-k8s.cluster.local w104-k8s) 
 skipping: [w106-k8s] => (item=# Ansible inventory hosts END) 
-skipping: [m13-k8s] => (item=192.168.1.106 w106-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.106 w106-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.105 w105-k8s.cluster.local w105-k8s) 
-skipping: [m11-k8s] => (item=192.168.1.106 w106-k8s.cluster.local w106-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.106 w106-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.106 w106-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.105 w105-k8s.cluster.local w105-k8s) 
+skipping: [m11-k8s] => (item=192.168.56.106 w106-k8s.cluster.local w106-k8s) 
 skipping: [m12-k8s] => (item=# Ansible inventory hosts BEGIN) 
 skipping: [m13-k8s] => (item=# Ansible inventory hosts BEGIN) 
 skipping: [m11-k8s] => (item=192.168.1.11 m11-k8s.cluster.local m11-k8s) 
 skipping: [m11-k8s] => (item=192.168.1.12 m12-k8s.cluster.local m12-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.101 w101-k8s.cluster.local w101-k8s) 
-skipping: [m13-k8s] => (item=192.168.1.101 w101-k8s.cluster.local w101-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.102 w102-k8s.cluster.local w102-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.101 w101-k8s.cluster.local w101-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.101 w101-k8s.cluster.local w101-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.102 w102-k8s.cluster.local w102-k8s) 
 skipping: [m11-k8s] => (item=192.168.1.13 m13-k8s.cluster.local m13-k8s) 
-skipping: [m13-k8s] => (item=192.168.1.102 w102-k8s.cluster.local w102-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.103 w103-k8s.cluster.local w103-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.104 w104-k8s.cluster.local w104-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.102 w102-k8s.cluster.local w102-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.103 w103-k8s.cluster.local w103-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.104 w104-k8s.cluster.local w104-k8s) 
 skipping: [m11-k8s] => (item=# Ansible inventory hosts END) 
-skipping: [m13-k8s] => (item=192.168.1.103 w103-k8s.cluster.local w103-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.105 w105-k8s.cluster.local w105-k8s) 
-skipping: [m13-k8s] => (item=192.168.1.104 w104-k8s.cluster.local w104-k8s) 
-skipping: [m12-k8s] => (item=192.168.1.106 w106-k8s.cluster.local w106-k8s) 
-skipping: [m13-k8s] => (item=192.168.1.105 w105-k8s.cluster.local w105-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.103 w103-k8s.cluster.local w103-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.105 w105-k8s.cluster.local w105-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.104 w104-k8s.cluster.local w104-k8s) 
+skipping: [m12-k8s] => (item=192.168.56.106 w106-k8s.cluster.local w106-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.105 w105-k8s.cluster.local w105-k8s) 
 skipping: [m12-k8s] => (item=192.168.1.11 m11-k8s.cluster.local m11-k8s) 
-skipping: [m13-k8s] => (item=192.168.1.106 w106-k8s.cluster.local w106-k8s) 
+skipping: [m13-k8s] => (item=192.168.56.106 w106-k8s.cluster.local w106-k8s) 
 skipping: [m12-k8s] => (item=192.168.1.12 m12-k8s.cluster.local m12-k8s) 
 skipping: [m13-k8s] => (item=192.168.1.11 m11-k8s.cluster.local m11-k8s) 
 skipping: [m12-k8s] => (item=192.168.1.13 m13-k8s.cluster.local m13-k8s) 
@@ -4566,13 +4566,13 @@ TASK [download : download_file | Create cache directory on download_delegate hos
 skipping: [w101-k8s]
 
 TASK [download : download_file | Download item] ****************************************************
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w106-k8s -> 192.168.56.106]
 changed: [m12-k8s -> 192.168.1.12]
-changed: [w105-k8s -> 192.168.1.105]
+changed: [w105-k8s -> 192.168.56.105]
 changed: [m11-k8s -> 192.168.1.11]
 changed: [m13-k8s -> 192.168.1.13]
 
@@ -4681,15 +4681,15 @@ TASK [download : download_file | Create cache directory on download_delegate hos
 skipping: [w101-k8s]
 
 TASK [download : download_file | Download item] ****************************************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w104-k8s -> 192.168.1.104]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w104-k8s -> 192.168.56.104]
 ok: [m12-k8s -> 192.168.1.12]
 ok: [m11-k8s -> 192.168.1.11]
 ok: [m13-k8s -> 192.168.1.13]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w106-k8s -> 192.168.56.106]
 
 TASK [download : download_file | Copy file back to ansible host file cache] ************************
 skipping: [w101-k8s]
@@ -4796,12 +4796,12 @@ TASK [download : download_file | Create cache directory on download_delegate hos
 skipping: [w101-k8s]
 
 TASK [download : download_file | Download item] ****************************************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w106-k8s -> 192.168.56.106]
 changed: [m11-k8s -> 192.168.1.11]
 changed: [m12-k8s -> 192.168.1.12]
 changed: [m13-k8s -> 192.168.1.13]
@@ -4911,13 +4911,13 @@ TASK [download : download_file | Create cache directory on download_delegate hos
 skipping: [w101-k8s]
 
 TASK [download : download_file | Download item] ****************************************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w106-k8s -> 192.168.56.106]
 changed: [m13-k8s -> 192.168.1.13]
-changed: [w103-k8s -> 192.168.1.103]
+changed: [w103-k8s -> 192.168.56.103]
 changed: [m12-k8s -> 192.168.1.12]
 changed: [m11-k8s -> 192.168.1.11]
 
@@ -5173,15 +5173,15 @@ skipping: [m12-k8s]
 skipping: [m13-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w103-k8s -> 192.168.1.103]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w103-k8s -> 192.168.56.103]
 changed: [m12-k8s -> 192.168.1.12]
 changed: [m11-k8s -> 192.168.1.11]
 changed: [m13-k8s -> 192.168.1.13]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w106-k8s -> 192.168.56.106]
 
 TASK [download : download_container | Save and compress image] *************************************
 skipping: [w101-k8s]
@@ -5435,15 +5435,15 @@ skipping: [m12-k8s]
 skipping: [m13-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w101-k8s -> 192.168.1.101]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w101-k8s -> 192.168.56.101]
 changed: [m13-k8s -> 192.168.1.13]
 changed: [m12-k8s -> 192.168.1.12]
 changed: [m11-k8s -> 192.168.1.11]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w106-k8s -> 192.168.56.106]
 
 TASK [download : download_container | Save and compress image] *************************************
 skipping: [w101-k8s]
@@ -5697,13 +5697,13 @@ skipping: [m12-k8s]
 skipping: [m13-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w104-k8s -> 192.168.1.104]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w104-k8s -> 192.168.56.104]
 changed: [m12-k8s -> 192.168.1.12]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w106-k8s -> 192.168.56.106]
 changed: [m13-k8s -> 192.168.1.13]
 changed: [m11-k8s -> 192.168.1.11]
 
@@ -5959,12 +5959,12 @@ skipping: [m12-k8s]
 skipping: [m13-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w106-k8s -> 192.168.56.106]
 changed: [m11-k8s -> 192.168.1.11]
 changed: [m12-k8s -> 192.168.1.12]
 changed: [m13-k8s -> 192.168.1.13]
@@ -6164,12 +6164,12 @@ skipping: [w105-k8s]
 skipping: [w106-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w106-k8s -> 192.168.56.106]
 
 TASK [download : download_container | Save and compress image] *************************************
 skipping: [w101-k8s]
@@ -6411,15 +6411,15 @@ skipping: [m12-k8s]
 skipping: [m13-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w105-k8s -> 192.168.1.105]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w105-k8s -> 192.168.56.105]
 changed: [m12-k8s -> 192.168.1.12]
 changed: [m11-k8s -> 192.168.1.11]
 changed: [m13-k8s -> 192.168.1.13]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w106-k8s -> 192.168.56.106]
 
 TASK [download : download_container | Save and compress image] *************************************
 skipping: [w101-k8s]
@@ -6616,12 +6616,12 @@ skipping: [w105-k8s]
 skipping: [w106-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w106-k8s -> 192.168.56.106]
 
 TASK [download : download_container | Save and compress image] *************************************
 skipping: [w101-k8s]
@@ -6806,12 +6806,12 @@ skipping: [w105-k8s]
 skipping: [w106-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w106-k8s -> 192.168.56.106]
 
 TASK [download : download_container | Save and compress image] *************************************
 skipping: [w101-k8s]
@@ -7053,14 +7053,14 @@ skipping: [m12-k8s]
 skipping: [m13-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w105-k8s -> 192.168.1.105]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w105-k8s -> 192.168.56.105]
 changed: [m11-k8s -> 192.168.1.11]
 changed: [m12-k8s -> 192.168.1.12]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w106-k8s -> 192.168.56.106]
 changed: [m13-k8s -> 192.168.1.13]
 
 TASK [download : download_container | Save and compress image] *************************************
@@ -7315,13 +7315,13 @@ skipping: [m12-k8s]
 skipping: [m13-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w103-k8s -> 192.168.1.103]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w103-k8s -> 192.168.56.103]
 changed: [m11-k8s -> 192.168.1.11]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w106-k8s -> 192.168.56.106]
 changed: [m12-k8s -> 192.168.1.12]
 changed: [m13-k8s -> 192.168.1.13]
 
@@ -7577,12 +7577,12 @@ skipping: [m12-k8s]
 skipping: [m13-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w106-k8s -> 192.168.56.106]
 changed: [m12-k8s -> 192.168.1.12]
 changed: [m11-k8s -> 192.168.1.11]
 changed: [m13-k8s -> 192.168.1.13]
@@ -7839,15 +7839,15 @@ skipping: [m12-k8s]
 skipping: [m13-k8s]
 
 TASK [download : download_container | Download image if required] **********************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w105-k8s -> 192.168.1.105]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w105-k8s -> 192.168.56.105]
 changed: [m11-k8s -> 192.168.1.11]
 changed: [m13-k8s -> 192.168.1.13]
 changed: [m12-k8s -> 192.168.1.12]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w106-k8s -> 192.168.56.106]
 
 TASK [download : download_container | Save and compress image] *************************************
 skipping: [w101-k8s]
@@ -12114,15 +12114,15 @@ changed: [m12-k8s]
 changed: [m13-k8s]
 
 TASK [kubernetes/node : install | Copy kubeadm binary from download dir] ***************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w102-k8s -> 192.168.1.102]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w102-k8s -> 192.168.56.102]
 skipping: [m11-k8s]
 skipping: [m12-k8s]
-changed: [w103-k8s -> 192.168.1.103]
+changed: [w103-k8s -> 192.168.56.103]
 skipping: [m13-k8s]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w106-k8s -> 192.168.56.106]
 
 TASK [kubernetes/node : install | Set kubeadm binary permissions] **********************************
 ok: [w101-k8s]
@@ -12136,12 +12136,12 @@ skipping: [m13-k8s]
 ok: [w106-k8s]
 
 TASK [kubernetes/node : install | Copy kubelet binary from download dir] ***************************
-changed: [w101-k8s -> 192.168.1.101]
-changed: [w102-k8s -> 192.168.1.102]
-changed: [w104-k8s -> 192.168.1.104]
-changed: [w103-k8s -> 192.168.1.103]
-changed: [w105-k8s -> 192.168.1.105]
-changed: [w106-k8s -> 192.168.1.106]
+changed: [w101-k8s -> 192.168.56.101]
+changed: [w102-k8s -> 192.168.56.102]
+changed: [w104-k8s -> 192.168.56.104]
+changed: [w103-k8s -> 192.168.56.103]
+changed: [w105-k8s -> 192.168.56.105]
+changed: [w106-k8s -> 192.168.56.106]
 changed: [m11-k8s -> 192.168.1.11]
 changed: [m12-k8s -> 192.168.1.12]
 changed: [m13-k8s -> 192.168.1.13]

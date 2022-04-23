@@ -31,12 +31,12 @@ cat <<EOF >  /root/ansible_hosts.ini
 m11-k8s ansible_host=192.168.1.11 ip=192.168.1.11
 m12-k8s ansible_host=192.168.1.12 ip=192.168.1.12
 m13-k8s ansible_host=192.168.1.13 ip=192.168.1.13
-w101-k8s ansible_host=192.168.1.101 ip=192.168.1.101
-w102-k8s ansible_host=192.168.1.102 ip=192.168.1.102
-w103-k8s ansible_host=192.168.1.103 ip=192.168.1.103
-w104-k8s ansible_host=192.168.1.104 ip=192.168.1.104
-w105-k8s ansible_host=192.168.1.105 ip=192.168.1.105
-w106-k8s ansible_host=192.168.1.106 ip=192.168.1.106
+w101-k8s ansible_host=192.168.56.101 ip=192.168.56.101
+w102-k8s ansible_host=192.168.56.102 ip=192.168.56.102
+w103-k8s ansible_host=192.168.56.103 ip=192.168.56.103
+w104-k8s ansible_host=192.168.56.104 ip=192.168.56.104
+w105-k8s ansible_host=192.168.56.105 ip=192.168.56.105
+w106-k8s ansible_host=192.168.56.106 ip=192.168.56.106
 
 
 [etcd]
